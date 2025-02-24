@@ -1,1 +1,1 @@
-rootProject.name = "inditext"
+rootProject.name = "inditex"
