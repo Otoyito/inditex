@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 public class ProductMapper {
 
     public ProductOutputDTO mapProductToProductOutputDTO(Product product) {
-        // Given the simplicity... might be a bit overengineered :P
         return ProductOutputDTO.of(
                 product.getProductId(),
                 product.getBrandId(),
